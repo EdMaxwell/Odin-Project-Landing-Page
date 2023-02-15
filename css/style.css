@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+	font-family: sans-serif;
+}
+
+header,
+footer {
+  width: 100%;
+  background: #1f2937;
+  padding: 10px 0;
+  color: #f9faf8;
+}
+
+header {
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 5em;
+  font-size: 24px;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 10em;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navBar a:link,
+.navBar a:visited,
+.navBar a:hover,
+.navBar a:active {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.navBar li {
+  padding-left: 2em;
+  font-size: 18px;
+}
+
+.signUp {
+	background-color: #1f2937;
+	margin-top: -1.5em;
+	padding: 4em 12.5% 4em 12.5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+}
+
+.signUpText {
+	margin: 2em;
+}
+
+.signUpText h2 {
+	font-size: 48px;
+	font-weight: bold;
+	color: #f9faf8;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+.signUpText p {
+	margin-bottom: 8px;
+	margin-top: 0;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+button {
+	padding: 6px;
+	width: 100px;
+	border-radius: 7px;
+	background-color: #3882f6;
+	border: 0;
+	font-weight: bolder;
+	color: #f9faf8;
+}
+
+.signUpImg {
+	background-color: lightgrey;
+	max-width: 100%;
+}
+
+.information {
+	text-align: center;
+	padding: 2em 20% 8em 20%;
+}
+
+.listSubInfo {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 2em;
+}
+
+
+
+
+footer {
+	position: fixed;
+  bottom: 0;
+  text-align: center;
+}
